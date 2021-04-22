@@ -1,1 +1,4 @@
-# ds-stepanova-ekaterina-1
+# Личный проект "Первый"
+
+* Студент [Степанова Екатерина] [https://t.me/stepanovaekaterina7]
+* Наставник [Симоненко Денис] [https://t.me/SantaX000]
