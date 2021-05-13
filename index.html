@@ -7,7 +7,7 @@
 </head>
 <body>
     <header class="header">
-        <img src="DLK" alt="logo.jpg">
+        <img src="images/favicon/Union.png">
         <nav>
             <ul>
                 <li><a href="#">BLOG</a></li>
@@ -15,8 +15,8 @@
                 <li><a href="#">About Us</a></li>
             </ul>
         </nav>
-        <button>some text</button>
-        <a href="#">Contact  Us</a>  
+        <button></button>
+        <a href="contact.html">Contact  Us</a>  
     </header>
     <main>
         <section class="pagination">
@@ -24,19 +24,19 @@
                 <output name="result">01</output>
                 <ul class="banner-hav__list">
                     <li class="banner-hav__item">
-                        <button>some text</button>
+                        <button></button>
                     </li>
                     <li class="banner-hav__item">
-                        <button>some text</button>
+                        <button></button>
                     </li>
                     <li class="banner-hav__item">
-                        <button>some text</button>
+                        <button></button>
                     </li>
                     <li class="banner-hav__item">
-                        <button>some text</button>
+                        <button></button>
                     </li>
                     <li class="banner-hav__item">
-                        <button>some text</button>
+                        <button></button>
                     </li>
                 </ul>
             </div>
@@ -50,42 +50,39 @@
             <h2>Category Products</h2>
             <ul>
                 <li>
-                    <img src="images/thing1.jpg" alt="" width="280" height="270">
+                    <img src="images/things/thing1.jpg" alt="" width="280" height="270">
                     <a href="#">APPAREL KIDS</a>  
                 </li>
                 <li>    
-                    <img src="images/thing2.jpg" alt="" width="280" height="270">
+                    <img src="images/things/thing2.jpg" alt="" width="280" height="270">
                     <a href="#">HOLIDAY SHOP</a>
                 </li>
                 <li>   
-                    <img src="images/thing3.jpg" alt="" width="270" height="270">
+                    <img src="images/things/thing3.jpg" alt="" width="270" height="270">
                     <a href="#">TOYS</a>
                 </li> 
                 <li>  
-                    <img src="images/thing4.jpg" alt="" width="280" height="270">
+                    <img src="images/things/thing4.jpg" alt="" width="280" height="270">
                     <a href="#">ACCESSORIES</a>
                 </li>
             </ul>
-            <ol>
-                <li>
-                    <button>button1</button>
-                    <img src="images/button1.png" alt="" width="37" height="37">
-                    <a href="" class="button">button1</a>
-                </li>
-                <li>
-                    <button>button2</button>
-                    <img src="images/button2.png" alt="" width="37" height="37">
-                    <a href="" class="button">button2</a>
-                </li>
-            </ol>
+            <div class="service__navigation">
+                <button class="service__navigation service__navigation--prev"></button>
+                <button class="service__navigation service__navigation--next"></button>
+            </div>
             <p>Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
         </section>
         <section class="about">
-            <img src="images/thing5.jpg" alt="" width="480" height="559">
+            <img src="images/things/thing5.jpg" alt="" width="480" height="559">
             <h2>Delivery</h2>
-            <button><i>Delivery</i></button>
-            <button><i>Guarantee</i></button>
-            <button><i>Credit</i></button>
+            <ul>
+                <li>
+                    <button><i>Delivery</i></button>
+                    <button><i>Guarantee</i></button>
+                    <button><i>Credit</i></button>
+                </li>
+            </ul>
+            
             <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
             <p>What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
             <a href="#" class="button">LEARN MORE</a> 
@@ -101,7 +98,7 @@
         </section>
         <article class="map">
             <h2>Design Life Kids</h2>
-            <button><i>About Us</i></button>
+            <i>About Us</i>
             <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
             <a href="#" class="button">buy now</a> 
             <h2>Contacts</h2>
@@ -171,5 +168,61 @@
             </ul>
         </div>    
     </footer>
+
+
+    <div class="modul-popup">
+        <h1>modal window</h1>
+        <h2>contact us</h2>
+            <form action="" method="post"></form>
+            <fieldset>
+                <label for="field-name">name</label>
+                <input id="field-name" type="text">
+
+                <label for="field-phone">phone</label>
+                <input id="field-phone" type="number">
+            </fieldset>
+            <fieldset>
+                <label for="field-email">email</label>
+                <input id="field-email" type="email">
+                <button type="submit">send</button>
+            </fieldset>
+            <fieldset>
+                <legend>cost</legend>
+                <input type="range">
+                <legend>
+                  payment method  
+                </legend>
+                <ul>
+                    <li>
+                        <input id="check-black" type="checkbox" name="black">
+                        <label for="check-black">black</label>
+                    </li>
+                    <li>
+                        <input id="check-Blue" type="checkbox" name="Blue">
+                        <label for="check-Blue">Blue</label>
+                    </li>
+                    <li>
+                        <input id="check-Green" type="checkbox" name="Green">
+                        <label for="check-Green">Green</label>
+                    </li>
+                    <li>
+                        <input id="check-White" type="checkbox" name="White">
+                        <label for="check-White">White</label>
+                    </li>
+                </ul>  
+                <legend>Delivery</legend>  
+                <ul>
+                    <li>
+                        <input type="radio" id="radio-Free shipping" name="Delivery">
+                        <label for="radio-Free shipping">Free shipping</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="radio-Fast shipping" name="Delivery">
+                        <label for="radio-Fast shipping">Fast shipping</label>
+                    </li>
+                </ul> 
+                
+            </fieldset>
+    </div>
 </body>
 </html>
