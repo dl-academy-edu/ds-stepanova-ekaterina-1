@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #1E0606;
+}
+
+img {
+    max-width: 100%;
+    display: block
+
+}
+.container {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+/* HEADER */
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.menu {
+    margin-top: 0;
+    margin-left: 60px;
+    margin-bottom: 0;
+    margin-right: auto;
+
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-search {
+    border: none;
+    background: #fff;
+    color: #1E0606;
+    margin-right: 23px;
+}
+
+.header-item > a {
+    margin-right: 20px;
+    color:black;
+    Font size: 14px
+    Line height: 19px
+    Align: Left
+    Vertical align: Center
+    Paragraph spacing: 15px
+    color: black; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header .button {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #1E0606, 100 %;
+    text-decoration: none;
+    background: #fff;
+    width: 92px;
+    height: 23px;
+    text-align: right;
+}
+
+.header .button:hover {
+    color: #1E0606, Opacity 50 %;
+} 
+
+.header .button:active {
+    color: #1E0606, Opacity 20 %;
+} 
+
+
+.button button-secondary {
+    background: black;
+    border: none;
+
+}
+
+
+
+.pagination .button {
+    Width: 161px;
+    Height: 40px;
+    text-align: center;
+    background: black;
+    color:blanchedalmond;
+    border: none;
+}
+.pagination .button:hover {
+    background: #C29974;
+}
+.pagination .button:active {
+    background: #CFAF91;
+}
+
+
+
+.dots-none li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+.service .button {
+    background-image: thing1.jpg;
+
+
+}
+
+
+
+
+
+
+
+
+
+}

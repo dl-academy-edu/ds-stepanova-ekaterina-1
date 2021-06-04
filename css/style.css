@@ -1,0 +1,69 @@
+/* BANNER */
+
+
+.banner {
+    display: flex;
+    align: right;
+    
+
+}    
+.banner {
+    position: relative;
+}
+
+.banner:after {
+    content: url('../images/monster.png');
+    display: block;
+    width: 1180px;
+    height: 411px;
+    background: #EEE4DB;
+    position: absolute;
+    
+
+}
+
+.banner-title {
+    Font family: Montserrat;
+    Font style: Bold;
+    Font size: 40px;
+    Line height: 44px;
+    Line height: 110%;
+    Align: Left;
+    color: #1E0606;
+}
+
+.button-primacy {
+    color: #D6CAC2;
+    border: none;
+    text-decoration: none;
+    width: 31px;
+    height: 3px;
+
+}
+
+/* SERVICE */
+.service-title {
+    Font family: Montserrat;
+    Font style: Bold;
+    Font size: 38px;
+    Line height: 46px;
+    Align: Left;
+    color: #1E0606;
+}
+/* ABOUT */
+
+.about {
+    dispiay: flex;
+}
+
+.about {
+    position: relative;
+}
+
+.about:after {
+    
+
+
+
+
+}
