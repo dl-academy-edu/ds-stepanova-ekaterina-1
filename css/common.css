@@ -12,14 +12,9 @@ body {
 img {
     max-width: 100%;
     display: block
+}
 
-}
-.container {
-    max-width: 1180px;
-    width: 100%;
-    margin: 0 auto;
-    
-}
+
 /* HEADER */
 
 .header {
@@ -28,21 +23,21 @@ img {
     padding: 60px 0;
 }
 
+
 .menu {
     margin-top: 0;
     margin-left: 60px;
     margin-bottom: 0;
     margin-right: auto;
-
 }
 
 .header-list {
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .header-search {
+    content: url ('../images/search.svg');
     border: none;
     background: #fff;
     color: #1E0606;
@@ -63,14 +58,16 @@ img {
 }
 
 .header .button {
-    font-size: 14px;
+    font-family: Open Sans;
     font-weight: 700;
-    line-height: 23px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
     text-transform: uppercase;
-    color: #1E0606, 100 %;
+    color: #1E0606;
     text-decoration: none;
     background: #fff;
-    width: 92px;
+    width: 10%;
     height: 23px;
     text-align: right;
 }
@@ -83,16 +80,21 @@ img {
     color: #1E0606, Opacity 20 %;
 } 
 
-
-.button button-secondary {
+.button-secondary {
     background: black;
     border: none;
-
+    margin-top: 243px;
+    margin-left: -133px;
 }
 
-
-
-.pagination .button {
+.button-secondary {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    position: absolute;
+    left: 300px;
     Width: 161px;
     Height: 40px;
     text-align: center;
@@ -100,10 +102,10 @@ img {
     color:blanchedalmond;
     border: none;
 }
-.pagination .button:hover {
+.button-secondary:hover {
     background: #C29974;
 }
-.pagination .button:active {
+.button-secondary:active {
     background: #CFAF91;
 }
 
@@ -116,20 +118,152 @@ img {
 
 }
 
-
-
-.service .button {
-    background-image: thing1.jpg;
-
-
+.container {
+    max-width: 1180px;
+    margin-top: 145px;
+    margin-left: 110px;
+    margin-bottom: 90px;
+    margin-right: 110px; 
+    
 }
 
 
+.number {
+    content: url(../images/01.svg);
+    width: 61px;
+    height: 74px;
+    margin-top: 17px;
+    margin-left: 28px;
+    
+}
+
+.banner-hav__item {
+    list-style-type: none;
+    left: -10px;
+    top: -10px;
+    margin-top: -3px;
+    
+}
+
+.button-primacy-one {
+    border: none;
+    background-color: #715f5b;
+    width: 31px;
+    height: 3px;
+}
+
+.button-primacy-one:hover {
+    background-color: #715f5b;
+}
 
 
+.button-primacy {
+    border: none;
+    background-color: #d6cac2;
+    width: 31px;
+    height: 3px;
+}
+
+.button-primacy:hover {
+    background-color: #715f5b;
+}
+
+/* SERVICE */
+
+.servise-style {
+    display: flex;
+}
 
 
+li {
+    list-style: none;  
+}
 
 
+.servise-style li {
+    margin-right: 25px;
+}
+
+.servise-style .button-one {
+    position: absolute;
+    color: #FFFFFF; 
+    font-Size: 26px;
+    Line-height: 32px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+    width: 280px;
+    height: 270px;   
+    padding-top: 103px;
+   
+}
+
+.servise-style .button-two {
+    position: absolute;
+    color: #FFFFFF; 
+    font-Size: 26px;
+    Line-height: 32px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+    width: 280px;
+    height: 270px;   
+    padding-top: 119px;
 
 }
+
+.servise-title {
+    margin-top: 732px;
+    margin-left: 110px;
+    display: block;
+    Font-size: 38px;
+    line-height: 46px;
+    width: 454px;
+    height: 47px;
+    color: #1E0606;
+}
+/* .service-navigation */
+
+.service-navigation {
+    display: flex;
+    position: relative;
+    
+}
+
+.service-navigation button {
+    border: none;
+}
+
+.servise-nonavigation_prev {
+    content: url('../images/button1.png');
+}
+
+.service-navigation_next {
+    content: url('../images/button2.png');
+}
+
+.service-navigation p {
+    width: 580px;
+    height: 44px;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-family: Open Sans;
+    font-Weight :400;
+    font-Style: normal;
+    font-Size: 16px;
+    line-height: 22px;
+}
+
+.invisible {
+    font-size: 0;
+    height: 0;
+}
+
+/* FOOTER */
+
+
+
+
+

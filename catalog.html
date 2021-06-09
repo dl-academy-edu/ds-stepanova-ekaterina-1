@@ -3,24 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Catalog</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon/Union.png" type="image/x-icon">
 </head>
 <body>
-    <header class="header">
+    <header class="header container">
         <img src="images/favicon/Union.png" alt="">
-        <nav>
-            <ul>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CATALOG</a></li>
-                <li><a href="#">About Us</a></li>
+        <nav class="menu" style="">
+            <ul class="dots-none header-list">
+                <li class="header-item"><a href="#">Blog</a></li>
+                <li class="header-item"><a href="#">Catalog</a></li>
+                <li class="header-item"><a href="#">About Us</a></li>
             </ul>
         </nav>
-        <button></button>
-        <a href="#">Contact  Us</a>  
+            <button class="header-search"><img src="images/search.svg"></a></button>
+            <a href="contact.html" class="button">Contact  Us</a>           
     </header>
     <main>
         <section class="service">
-            <h1>Category Products</h1>
+            <h1 class="service-title">Category Products</h1>
             <ul>
                 <li><a href="#"><i>home</i></a></li>
                 <li><button>vector.svg</button>
