@@ -70,14 +70,17 @@ img {
     width: 10%;
     height: 23px;
     text-align: right;
+   
 }
 
 .header .button:hover {
-    color: #1E0606, Opacity 50 %;
+    color: #1E0606;
+    Opacity: 50%;
 } 
 
 .header .button:active {
-    color: #1E0606, Opacity 20 %;
+    color: #1E0606;
+    Opacity: 20%;
 } 
 
 .button-secondary {
@@ -170,7 +173,7 @@ img {
 
 /* SERVICE */
 
-h2 {
+.service-title_one {
     Font-family: Montserrat;
     font-Weight: 700;
     font-Style: normal;
@@ -185,15 +188,17 @@ h2 {
 
 .servise-style {
     display: flex;
-    padding-left: 0;
+    padding-left: 0;  
 }
 
 li {
-    list-style: none;  
+    list-style: none;
+    
 }
 
 .servise-style li {
     margin-right: 25px;
+    
 }
 
 .servise-style .button-one {
@@ -208,8 +213,38 @@ li {
     width: 280px;
     height: 270px;   
     padding-top: 103px;
-   
 }
+
+.servise-style .button-one:hover {
+    position: absolute;
+    text-decoration:inherit;
+    color: #FFFFFF; 
+    font-Size: 26px;
+    Line-height: 32px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+    width: 280px;
+    height: 270px;   
+    padding-top: 103px;
+}
+
+.servise-style .button-one:active {
+    position: absolute;
+    text-decoration:inherit;
+    color: #FFFFFF; 
+    font-Size: 26px;
+    Line-height: 32px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+    width: 280px;
+    height: 270px;   
+    padding-top: 103px;
+}
+
 
 .servise-style .button-two {
     position: absolute;
@@ -226,6 +261,35 @@ li {
 
 }
 
+.servise-style .button-two:hover {
+    position: absolute;
+    text-decoration:inherit;
+    color: #FFFFFF; 
+    font-Size: 26px;
+    Line-height: 32px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+    width: 280px;
+    height: 270px;   
+    padding-top: 119px;
+}
+
+.servise-style .button-two:active {
+    position: absolute;
+    text-decoration:inherit;
+    color: #FFFFFF; 
+    font-Size: 26px;
+    Line-height: 32px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+    width: 280px;
+    height: 270px;   
+    padding-top: 119px;
+}
 
 /* .service-navigation */
 
@@ -266,7 +330,6 @@ li {
 
 
 
-
 /* FOOTER */
 
 .nav {
@@ -276,7 +339,7 @@ li {
     position: absolute;
     width: 1400px;
     height: 555px;
-    margin-top: 155px;
+    margin-top: 0px;
     margin-left: 11px;
 }
 

@@ -1,0 +1,249 @@
+.service {
+    display: block;
+    position: relative;
+    align-items: center;
+}
+
+.service-title_five {
+    width: 478px;
+    height: 49px;
+    margin: 0;
+    margin-left: 110px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-Weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.vector {
+    display: flex;
+    position: relative;
+    width: 42px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 110px;
+    
+    
+}
+
+.vector-one {
+    position: relative;
+    margin-left: -38px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.one {
+    background: url('../images/vector.svg') no-repeat center;
+    width: 8px;
+    height: 12px;
+    margin: 0;
+    margin-top: -4px;
+    margin-left: 20px;
+    border: none;
+}
+
+.contact-us {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #9c9292;
+}
+
+/* MODUL POPUP */
+
+.modul-popup {
+    background: url('../images/Rectangle\ \(4\).png') no-repeat center;
+    display: block;
+    width: 680px;
+    height: 542px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 110px;
+   
+}
+
+.fieldset {
+    position: absolute;
+    width: 680px;
+    height: 542px;
+    border: none; 
+}
+
+.field-name {
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    font-family: Open sans;
+    font-Weight: 400;
+    font-Style: normal;
+    font-Size: 14px;
+    Line-height: 19px;
+    left: 40px;
+    padding: 0;
+}
+
+.name {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    margin-top: 45px;
+    left: 40px;
+    border: none;   
+}
+
+.field-phone {
+    position: absolute;
+    width: 42px;
+    height: 20px;
+    left: 40px;
+    margin-top: 120px;
+    margin-bottom: 3px;
+    font-family: Open sans;
+    font-Weight: 400;
+    font-Style: normal;
+    font-Size: 14px;
+    Line-height: 19px;
+}
+.phone {
+    position: absolute;
+    margin-top: 145px;
+    width: 290px;
+    height: 50px;
+    left: 40px;
+    border: none;
+}
+
+.field-email {
+    position: absolute;
+    width: 36px;
+    height: 20px;
+    margin-top: 120px;
+    margin-bottom: 3px;
+    margin-left: 298px;
+    font-family: Open sans;
+    font-Weight: 400;
+    font-Style: normal;
+    font-Size: 14px;
+    Line-height: 19px;
+
+}
+.email-one {
+    position: absolute;
+    width: 290px;
+    height: 50px;
+    margin-top: 145px;
+    margin-left: 298px; 
+    border: none;
+}
+
+.field-message {
+    position: absolute;
+    width: 36px;
+    height: 20px;
+    margin-top: 220px;
+    margin-bottom: 3px;
+    left: 40px;
+    font-family: Open sans;
+    font-Weight: 400;
+    font-Style: normal;
+    font-Size: 14px;
+    Line-height: 19px;
+
+}
+.message {
+    position: absolute;
+    width: 600px;
+    height: 150px;
+    margin-top: 245px;
+    left: 40px;
+    border: none;
+}
+.article {
+    display: block;
+    position: relative;
+    margin-left: 910px;
+    margin-top: 60px;
+    margin-right: 110px;
+    padding-bottom: 384px;
+
+}
+
+.support {
+    width: 380px;
+    height: 44px;
+    font-family: Open sans;
+    font-Weight: 400;
+    font-Style: normal;
+    font-Size: 16px;
+    Line-height: 22px;
+}
+
+.send {
+    width: 380px;
+    height: 66px;
+    font-family: Open sans;
+    font-Weight: 400;
+    font-Style: normal;
+    font-Size: 16px;
+    Line-height: 22px;
+    margin-top: 20px;
+}
+
+.expert {
+    width: 380px;
+    height: 66px;
+    font-family: Montserrat;
+    font-Weight: 600;
+    font-Style: normal;
+    font-Size: 26px;
+    Line-height: 34px;
+    margin-top: 20px;
+    color: #C29974;
+    text-transform: uppercase;
+}
+
+.clicking {
+    margin-top: 415px;
+    margin-left: -12px;
+    width: 19px;
+    height: 19px;
+    font-family: Open sans;
+    font-Weight: 400;
+    font-Style: normal;
+    font-Size: 14px;
+    Line-height: 19px;
+}
+
+.checkbox {
+    width: 508px;
+    height: 20px;
+}
+
+.submit-one {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    position: absolute;
+    text-transform: uppercase;
+    left: 40px;
+    Width: 106px;
+    Height: 40px;
+    text-align: center;
+    background: black;
+    color:blanchedalmond;
+    border: none;
+}
+.submit-one:hover {
+    background: #C29974;
+}
+.submit-one:active {
+    background: #CFAF91;
+}
