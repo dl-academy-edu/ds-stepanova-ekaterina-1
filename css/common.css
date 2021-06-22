@@ -31,18 +31,29 @@ img {
     margin-right: auto;
 }
 
+.union {
+    width: 100px;
+    height: 52px;
+    
+}
+.union:hover {
+    width: 100px;
+    height: 52px;
+    opacity: 50%;
+}
+
+.union:active {
+    width: 100px;
+    height: 52px;
+    opacity: 20%;
+}
+
+
 .header-list {
     display: flex;
     align-items: center; 
 }
 
-.header-search {
-    content: url ('../images/search.svg');
-    border: none;
-    background: #fff;
-    color: #1E0606;
-    margin-right: 23px;
-}
 
 .header-item > a {
     margin-right: 20px;
@@ -56,6 +67,62 @@ img {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.header-item > a:hover{
+    margin-right: 20px;
+    color:black;
+    Font size: 14px
+    Line height: 19px
+    Align: Left
+    Vertical align: Center
+    Paragraph spacing: 15px
+    color: black; 
+    opacity: 50%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-item > a:active {
+    margin-right: 20px;
+    color:black;
+    opacity: 20%;
+    Font size: 14px
+    Line height: 19px
+    Align: Left
+    Vertical align: Center
+    Paragraph spacing: 15px
+    color: black; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-search {
+    content: url ('../images/search.svg');
+    border: none;
+    background: #fff;
+    color: #1E0606;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+.header-search:hover {
+    content: url ('../images/search.svg');
+    border: none;
+    background: #fff;
+    color: #1E0606;
+    opacity: 50%;
+    margin-right: 23px;
+}
+
+.header-search:active {
+    content: url ('../images/search.svg');
+    border: none;
+    background: #fff;
+    color: #1E0606;
+    opacity: 20%;
+    margin-right: 23px;
+}
+
 
 .header .button {
     font-family: Open Sans;
@@ -140,6 +207,8 @@ img {
     
 }
 
+
+
 .banner-hav__item {
     list-style-type: none;
     left: -10px;
@@ -153,6 +222,7 @@ img {
     background-color: #715f5b;
     width: 31px;
     height: 3px;
+    cursor: pointer;
 }
 
 .button-primacy-one:hover {
@@ -165,6 +235,7 @@ img {
     background-color: #d6cac2;
     width: 31px;
     height: 3px;
+    cursor: pointer;
 }
 
 .button-primacy:hover {
@@ -213,6 +284,7 @@ li {
     width: 280px;
     height: 270px;   
     padding-top: 103px;
+    cursor: pointer;
 }
 
 .servise-style .button-one:hover {
@@ -258,6 +330,7 @@ li {
     width: 280px;
     height: 270px;   
     padding-top: 119px;
+    cursor: pointer;
 
 }
 
@@ -301,6 +374,7 @@ li {
 
 .service-navigation button {
     border: none;
+    cursor: pointer;
 }
 
 .servise-nonavigation_prev {
@@ -706,6 +780,10 @@ li {
     height: 40px;
 }
 
+.email:hover {
+    border: #fff;
+}
+
 .submit {
     position: absolute;
     display: block;
@@ -796,6 +874,7 @@ li {
     font-Style: normal;
     font-Size: 16px;
     Line-height: 22px;
+    cursor: pointer;
 }
 .lower:hover {
     color: #836E5B;
@@ -907,6 +986,7 @@ li {
     font-Style: normal;
     font-Size: 16px;
     Line-height: 22px;
+    cursor: pointer;
 }
 
 .web:hover {

@@ -1,133 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Main</title>
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/common.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon/Union.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
-<body>
-    <header class="header">
-        <img src="DLK" alt="logo.jpg">
-        <nav>
-            <ul>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CATALOG</a></li>
-                <li><a href="#">About Us</a></li>
-            </ul>
-        </nav>
-        <button>some text</button>
-        <a href="contact.html">Contact  Us</a>  
-    </header>
-    <main>
-        <section>
-            <h1>contact us</h1>
-            <form action="" method="post"></form>
-            <fieldset>
-                <label for="field-name">name</label>
-                <input id="field-name" type="text">
-
-                <label for="field-phone">phone</label>
-                <input id="field-phone" type="number">
-            </fieldset>
-            <fieldset>
-                <label for="field-email">email</label>
-                <input id="field-email" type="email">
-                <button type="submit">send</button>
-            </fieldset>
-            <fieldset>
-                <legend>
-                  payment method  
-                </legend>
-                <ul>
-                    <li>
-                        <input id="check-black" type="checkbox" name="black">
-                        <label for="check-black">black</label>
-                    </li>
-                    <li>
-                        <input id="check-Blue" type="checkbox" name="Blue">
-                        <label for="check-Blue">Blue</label>
-                    </li>
-                    <li>
-                        <input id="check-Green" type="checkbox" name="Green">
-                        <label for="check-Green">Green</label>
-                    </li>
-                    <li>
-                        <input id="check-White" type="checkbox" name="White">
-                        <label for="check-White">White</label>
-                    </li>
-                </ul>      
-                
-            </fieldset>
-
-        </section>
-
-    </main>
-
-    <footer>
-        <div class="nav block">
-                <h3 class="footer-header">Navigation</h3>
-            <div class="footer-header">
-                <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Design Services</a></li>
-                    <li><a href="#">Featured On</a></li>
-                    <li><a href="#">2018 Holiday Catalog</a></li>
-                    <li><a href="#">Shop By Designer</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="information block">
-            <h3 class="footer-header">Customer Information</h3>
-            <ul>
-                <li><a href="contact-us.html">Contact Us</a></li>
-                <li><a href="#">Shipping & Returns</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Search</a></li>
-            </ul>
-        </div>
-        <div class="connect block">
-            <h3 class="footer-header">Connect</h3>
-            <form action="#">
-            <button type="submit">Join</button>
-            <input type="email" placeholder="Email">
-            </form>
+<main>
+<div class="popup-overlay"></div>
+    <div class="modul-popup">
+        <button class="popup-close"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.21902 14.6113C1.70029 15.1295 0.893368 15.1295 0.374636 14.6113C0.11527 14.3522 -6.13512e-07 14.0355 -5.9841e-07 13.69C-5.83308e-07 13.3445 0.11527 13.0278 0.374636 12.7687L5.64841 7.5L0.374637 2.23127C0.115271 1.97215 -7.23629e-08 1.65547 -5.72611e-08 1.30998C-4.21593e-08 0.964491 0.115271 0.647806 0.374637 0.388689C0.893369 -0.129545 1.70029 -0.129545 2.21902 0.388689L7.4928 5.65738L12.7666 0.38869C13.2853 -0.129545 14.0922 -0.129545 14.611 0.38869C15.1297 0.906924 15.1297 1.71304 14.611 2.23127L9.33718 7.5L14.611 12.7687C15.1297 13.287 15.1297 14.0931 14.611 14.6113C14.0922 15.1295 13.2853 15.1295 12.7666 14.6113L7.4928 9.34258L2.21902 14.6113Z" fill="white"/>
+            </svg>
+            </button>
+        <form action="" method="post"></form>
+        <fieldset class="fieldset">
             <ul>
                 <li>
-                    <a href="https://www.facebook.com" target="_blank">
-                    <img src="image/social/facebook.svg" alt="facebook" class="facebook"></a>
+                    <label for="field-name" class="field-name">Name</label>
+                    <input class="name" id="field-name" type="text" placeholder="Ivan Ivanov">
                 </li>
                 <li>
-                    <a href="https://www.twitter.com" target="_blank">
-                    <img src="image/social/twitter.svg" alt="twitter" class="twitter"></a>
+                    <label for="field-phone" class="field-phone">Phone</label>
+                    <input class="phone" id="field-phone" type="number">
                 </li>
                 <li>
-                    <a href="https://www.pinterest.ru" target="_blank">
-                    <img src="image/social/pinterest.svg" alt="Pinterest" class="pinterest"></a>
+                    <label for="field-email" class="field-email">Email</label>
+                    <input class="email-one" id="field-email" type="email">
                 </li>
                 <li>
-                    <a href="https://www.instagram.com" target="_blank">
-                    <img src="image/social/instagram.svg" alt="instagram" class="instagram"></a>
-                </li> 
+                    <label for="field-message" class="field-message">Message</label>
+                    <input class="message" id="field-message" type="message">
+                </li>
+                <li>
+                    <div class="button-checkbox" type="checkbox" checked="checked" name="By clicking on the button, you consent to the processing of your personal data"></div>
+                    <label for="By clicking on the button, you consent to the processing of your personal data" class="clicking">By clicking on the button, you consent to the processing of your personal data</label>
+                </li>
+                <li>
+                    <button class="submit-one" type="submit">submit</button>
+                </li>
             </ul>
-        </div>
-        <div class="footer-lower">
-            <ul>
-                <li>Company Rating
-                    <img src="images/Star.svg" alt="">
-                    <img src="images/Star.svg" alt="">
-                    <img src="images/Star.svg" alt="">
-                    <img src="images/Star.svg" alt="">
-                    <img src="images/Star.svg" alt="">
-                </li>
-                <li>Copyright © 2018 Dlk • Design Life Kids</li>
-                <li>Web Design — Direct Line Development</li>
-            </ul>
-        </div>    
-    </footer>
-</body>
-</html>
+        </fieldset>
+    </div>    
+</main>

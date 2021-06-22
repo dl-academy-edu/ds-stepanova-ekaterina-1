@@ -87,8 +87,32 @@
     Line-height: 31px;
     width: 380px;
     top: 7px; 
+    cursor: pointer;
 }
 
+.blogs-title:hover {
+    position: relative;
+    font-family: Montserrat;
+    font-Weight: 700;
+    font-Style: normal;
+    font-Size: 24px;
+    Line-height: 31px;
+    width: 380px;
+    top: 7px; 
+    text-decoration: underline;
+}
+
+.blogs-title:active {
+    position: relative;
+    font-family: Montserrat;
+    font-Weight: 700;
+    font-Style: normal;
+    font-Size: 24px;
+    Line-height: 31px;
+    width: 380px;
+    top: 7px; 
+    text-decoration: underline;
+}
 
 .line {
     position: relative;

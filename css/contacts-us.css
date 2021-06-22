@@ -88,13 +88,23 @@
     padding: 0;
 }
 
+
 .name {
     position: absolute;
     width: 600px;
     height: 50px;
     margin-top: 45px;
     left: 40px;
-    border: none;   
+    border: 2px, rgba(0, 0, 0, 0.2);   
+}
+
+.name:hover {
+    border: 2px, rgba(0, 0, 0, 0.3); 
+    outline-color: rgba(0, 0, 0, 0.3); 
+}
+
+.name:active {
+    border: 1px, rgba(0, 0, 0, 0.2);   
 }
 
 .field-phone {
@@ -116,7 +126,16 @@
     width: 290px;
     height: 50px;
     left: 40px;
-    border: none;
+    border: 2px, rgba(0, 0, 0, 0.2);
+}
+
+.phone:hover {
+    border: 2px, rgba(0, 0, 0, 0.3);
+    outline-color: rgba(0, 0, 0, 0.3);
+}
+
+.phone:active {
+    border: 2px, rgba(0, 0, 0, 0.2);
 }
 
 .field-email {
@@ -139,14 +158,23 @@
     height: 50px;
     margin-top: 145px;
     margin-left: 298px; 
-    border: none;
+    border: 2px, rgba(0, 0, 0, 0.2);
+}
+
+.email-one:hover {
+    border: 2px, rgba(0, 0, 0, 0.3);
+    outline-color: rgba(0, 0, 0, 0.3);
+}
+
+.email-one:active {
+    border: 2px, rgba(0, 0, 0, 0.2);
 }
 
 .field-message {
     position: absolute;
     width: 36px;
     height: 20px;
-    margin-top: 220px;
+    margin-top: 217px;
     margin-bottom: 3px;
     left: 40px;
     font-family: Open sans;
@@ -160,10 +188,111 @@
     position: absolute;
     width: 600px;
     height: 150px;
-    margin-top: 245px;
+    margin-top: 241px;
     left: 40px;
+    border: 2px, rgba(0, 0, 0, 0.2);
+}
+
+.message:hover {
+    border: 2px, rgba(0, 0, 0, 0.3);
+    outline-color: rgba(0, 0, 0, 0.3);
+   
+}
+
+.message:active {
+    border: 2px, rgba(0, 0, 0, 0.2);
+}
+
+
+
+.button-checkbox {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: -12px;
+    width: 19px;
+    height: 19px;
+    cursor: default;
+    
+}
+
+.button-checkbox::before {
+    content: url('');
+    display: inline-block;
+    position: absolute;
+    font: 20px/30px Arial;
+    margin-right: 15px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 14px;
+    height: 15px;
+    background: #E5EAF8;
+    border: 2px solid #C29974;
+    border-image: initial;
+    vertical-align: middle;
+
+}
+
+
+.button-checkbox:not(:disabled):active+label::before {
+    content: url('../images/Vector\ 1\ \(Stroke\).svg');
+    display: inline-block;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: -5px;
+    width: 14px;
+    height: 15px;
+}
+
+.button-checkbox:checked::after {
+    border-color: 2px solid #C29974;
+    background-color: #E5EAF8;
+    content: url('../images/Vector\ 1\ \(Stroke\).svg');
+    
+} 
+
+.clicking {
+    position: absolute;
+    margin-top: 415px;
+    width: 508px;
+    height: 20px;
+    margin-left: 16px;
+    font-family: Open sans;
+    font-Weight: 400;
+    font-Style: normal;
+    font-Size: 14px;
+    Line-height: 19px;
+}
+    
+
+
+.submit-one {
+    position: absolute;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    position: absolute;
+    text-transform: uppercase;
+    left: 40px;
+    top: 470px;
+    Width: 106px;
+    Height: 40px;
+    text-align: center;
+    background: black;
+    color:blanchedalmond;
     border: none;
 }
+.submit-one:hover {
+    background: #C29974;
+}
+.submit-one:active {
+    background: #CFAF91;
+}
+
+
 .article {
     display: block;
     position: relative;
@@ -206,44 +335,4 @@
     margin-top: 20px;
     color: #C29974;
     text-transform: uppercase;
-}
-
-.clicking {
-    margin-top: 415px;
-    margin-left: -12px;
-    width: 19px;
-    height: 19px;
-    font-family: Open sans;
-    font-Weight: 400;
-    font-Style: normal;
-    font-Size: 14px;
-    Line-height: 19px;
-}
-
-.checkbox {
-    width: 508px;
-    height: 20px;
-}
-
-.submit-one {
-    font-family: Open Sans;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 22px;
-    position: absolute;
-    text-transform: uppercase;
-    left: 40px;
-    Width: 106px;
-    Height: 40px;
-    text-align: center;
-    background: black;
-    color:blanchedalmond;
-    border: none;
-}
-.submit-one:hover {
-    background: #C29974;
-}
-.submit-one:active {
-    background: #CFAF91;
 }
