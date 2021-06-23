@@ -333,7 +333,6 @@
     font-size: 40px;
     line-height: 49px;
     text-transform: uppercase;
-
 }
 
 .radio-one {
@@ -341,7 +340,7 @@
     margin-left: 867px;
     margin-top: -120px;
 }
-
+/*  
 .radio-name+label {
     display: inline-flex;
     align-items: center;
@@ -368,8 +367,8 @@
     background-color: #C29974;
     background-image: url('../images/Ellipse\ 1.svg');
     background-position: center;
-    background-size: ;
-}
+    background-size: ; */
+
 
 .radio-two {
     position: absolute;
@@ -377,9 +376,7 @@
     margin-top: -70px;
 }
 
-.radio-two:focus:not(:checked)+label::before {
-    border-color: #80bdff;
-}
+
 
 /* чекбокс */
 
@@ -545,7 +542,6 @@
     height: 49px;
     margin-top: -211px;
     margin-left: 462px;
-   
     border: none;
 }
 
