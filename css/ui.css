@@ -20,6 +20,7 @@
     position: absolute;
     padding-top: 26px;
 }
+
 .menu {
     margin-top: 0px;
     margin-left: 60px;
@@ -33,14 +34,14 @@
     left: 108px;
     margin-top: 32px;
     margin-right: 50px;
-    font-family: Archivo;
+    font-family: archivo;
     font-Weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
     text-transform: uppercase;
-
 }
+
 .header-list {
     display: flex;
     align-items: center; 
@@ -59,14 +60,11 @@
 }
 
 .header-item > a {
-   
     margin-right: 30px;
     color:black;
-    Font size: 14px;
-    Line height: 19px;
-    Align: Left;
-    Vertical align: Center;
-    Paragraph spacing: 15px;
+    font-size: 14px;
+    line-height: 19px;
+    vertical-align: center;
     color: black; 
     text-decoration: none;
     text-transform: uppercase;
@@ -75,7 +73,7 @@
 
 .header .button {
     margin-top: 40px;
-    font-family: Open Sans;
+    font-family: open Sans;
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
@@ -86,8 +84,7 @@
     background: #fff;
     width: 110px;
     height: 20px;
-    text-align: right;
-   
+    text-align: right; 
 }
 
 /* Наведение */
@@ -104,8 +101,8 @@
     display: flex;
     position: absolute;
     padding-top: 257px;
- 
 }
+
 .menu-two {
     margin-top: 0px;
     margin-left: 60px;
@@ -120,20 +117,19 @@
     left: 108px;
     margin-top: 101px;
     margin-right: 57px;
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
     text-transform: uppercase;
-
 }
+
 .header-list_two {
     display: flex;
     align-items: center;
     margin-top: 97px;
-    padding: 0;
-   
+    padding: 0;  
 }
 
 .header-search_two {
@@ -149,17 +145,15 @@
 .header-item_two > a {
     margin-right: 30px;
     color:#8e8282;
-    Font size: 14px;
-    Line height: 19px;
-    Align: Left;
-    Vertical align: Center;
-    Paragraph spacing: 15px; 
+    font-size: 14px;
+    line-height: 19px;
+    vertical-align: center;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 .header .button-two {
-    font-family: Open Sans;
+    font-family: open Sans;
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
@@ -172,8 +166,7 @@
     height: 20px;
     text-align: right;
     margin-top: 95px;
-    margin-right: 50px;
-   
+    margin-right: 50px; 
 }
 
 /* Клик */
@@ -189,8 +182,8 @@
     display: flex;
     position: absolute;
     padding-top: 487px;
- 
 }
+
 .menu-tree {
     margin-top: 0px;
     margin-left: 60px;
@@ -205,20 +198,19 @@
     margin-top: 152px;
     left: 108px;
     margin-right: 63px;
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
     text-transform: uppercase;
-
 }
+
 .header-list_tree {
     display: flex;
     align-items: center;
     padding: 0;
     margin-top: 151px;
-   
 }
 
 .header-search_tree {
@@ -234,17 +226,15 @@
 .header-item_tree > a {
     margin-right: 30px;
     color:#d2cdcd;
-    Font size: 14px;
-    Line height: 19px;
-    Align: Left;
-    Vertical align: Center;
-    Paragraph spacing: 15px; 
+    font-size: 14px;
+    line-height: 19px;
+    vertical-align: center;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 .header .button-tree {
-    font-family: Open Sans;
+    font-family: open Sans;
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
@@ -256,8 +246,7 @@
     width: 110px;
     height: 23px;
     text-align: right;
-    margin-top: 149px;
-   
+    margin-top: 149px; 
 }
 
 /* Хлебные крошки */
@@ -265,13 +254,14 @@
 .crumbs {
     margin-top: 441px;
     margin-left: 108px;
-    font-family: Archivo;
+    font-family: archivo;
     font-Weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
     text-transform: uppercase;
 }
+
 .vector {
     display: flex;
     position: relative;
@@ -286,7 +276,6 @@
     margin-left: -38px;
     color: black;
     text-decoration: none;
-
 }
 
 .one {
@@ -314,8 +303,8 @@
     height: 40px;
     margin-left: 108px;
     margin-top: 45px;
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
@@ -327,8 +316,8 @@
     margin-top: -45px;
     width: 478px;
     height: 49px;
-    font-family: Мontserrat;
-    font-Weight: 700;
+    font-family: montserrat;
+    font-weight: 700;
     font-style: normal;
     font-size: 40px;
     line-height: 49px;
@@ -447,15 +436,15 @@
 }
 
 .button-explore-one {
-    font-family: Open Sans;
+    font-family: open Sans;
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
     line-height: 22px;
     position: absolute;
     left: 300px;
-    Width: 161px;
-    Height: 40px;
+    width: 161px;
+    height: 40px;
     text-align: center;
     background: black;
     color:white;
@@ -471,15 +460,15 @@
 }
 
 .button-explore-two {
-    font-family: Open Sans;
+    font-family: open Sans;
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
     line-height: 22px;
     position: absolute;
     left: 300px;
-    Width: 161px;
-    Height: 40px;
+    width: 161px;
+    height: 40px;
     text-align: center;
     background: #C29974;
     color:white;
@@ -495,15 +484,15 @@
 }
 
 .button-explore-tree {
-    font-family: Open Sans;
+    font-family: open Sans;
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
     line-height: 22px;
     position: absolute;
     left: 300px;
-    Width: 161px;
-    Height: 40px;
+    width: 161px;
+    height: 40px;
     text-align: center;
     background: #CFAF91;
     color: white;
@@ -519,15 +508,15 @@
 }
 
 .button-explore-four {
-    font-family: Open Sans;
+    font-family: open Sans;
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
     line-height: 22px;
     position: absolute;
     left: 300px;
-    Width: 161px;
-    Height: 40px;
+    width: 161px;
+    height: 40px;
     text-align: center;
     background: #C1C1C1;
     color: white;
@@ -612,7 +601,6 @@
 }
 
 
-
 .radio-four {
     position: absolute;
     margin-left: 595px;
@@ -657,7 +645,7 @@
 
 .parameters-five {
     position: absolute;
-    font-family: Open Sans;
+    font-family: open Sans;
     font-Weight: 700;
     font-style: normal;
     font-size: 16px;
@@ -665,7 +653,6 @@
     margin-top: 45px;
     margin-left: 45px;
 }
-
 
 .amount {
     display: flex;
@@ -707,8 +694,8 @@
 }
 
 .article-one {
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
@@ -720,10 +707,10 @@
 
 .button-more_one {
     background: url('../images/products/product\ 1.jpg');
-    Opacity: 0%;
+    opacity: 0%;
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -731,8 +718,8 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 56px;
     text-align: center;
@@ -746,7 +733,7 @@
     margin-left: 66px;
     text-align: center;
     border: none;
-    font-family: Open Sans;
+    font-family: open Sans;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
@@ -760,8 +747,8 @@
 }
 
 .article-two {
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
@@ -776,7 +763,7 @@
     Opacity: 90%;
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -784,8 +771,8 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 56px;
     text-align: center;
@@ -816,7 +803,7 @@
 }
 
 .article-tree {
-    font-family: Archivo;
+    font-family: archivo;
     font-Weight: 700;
     font-style: normal;
     font-size: 18px;
@@ -832,7 +819,7 @@
     Opacity: 67%;
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -840,8 +827,8 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 79px;
     text-align: center;
@@ -850,7 +837,6 @@
     border: none;
     margin: 87px;
     cursor: pointer;
-   
 }
 
 
@@ -860,7 +846,7 @@
     margin-left: 70px;
     text-align: center;
     border: none;
-    font-family: Open Sans;
+    font-family: open Sans;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
@@ -880,26 +866,21 @@
     margin-bottom: 90px;
     margin-left: 110px;
     margin-right: 110px;
-
 }
 
 
 .servise-style {
     display: flex;
     padding-left: 0px;
-    margin-top: 104px; 
-      
+    margin-top: 104px;  
 }
 
 li {
     list-style: none;
-    
 }
 
 .servise-style li {
     margin-right: 123px;
-   
-    
 }
 
 .servise-style .button-a {
@@ -908,7 +889,7 @@ li {
     font-Size: 26px;
     Line-height: 32px;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     width: 280px;
@@ -923,7 +904,7 @@ li {
     font-Size: 26px;
     Line-height: 32px;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     width: 280px;
@@ -935,10 +916,10 @@ li {
     position: absolute;
     text-decoration:inherit;
     color: #FFFFFF; 
-    font-Size: 26px;
-    Line-height: 32px;
+    font-size: 26px;
+    line-height: 32px;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     width: 280px;
@@ -950,7 +931,7 @@ li {
 
 .parameters-one {
     position: absolute;
-    font-family: Open Sans;
+    font-family: open Sans;
     font-Weight: 700;
     font-style: normal;
     font-size: 16px;
@@ -977,6 +958,7 @@ li {
     margin-top: 109px;
     margin-left: 169px;
 }
+
 .fon-tree {
     border: none;
     width: 761px;
@@ -985,7 +967,6 @@ li {
 
 .fon-four {
     display: flex;
-    
 }
 
 .fon-four > li {
@@ -993,8 +974,8 @@ li {
 }
 
 .article-four {
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
@@ -1005,8 +986,8 @@ li {
 }
 
 .article-five {
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
@@ -1028,8 +1009,8 @@ li {
 .peace {
     width: 116px;
     height: 40px;
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
@@ -1045,8 +1026,8 @@ li {
 .peace-one {
     width: 116px;
     height: 40px;
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
@@ -1062,8 +1043,8 @@ li {
 .peace-two {
     width: 116px;
     height: 40px;
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
@@ -1085,8 +1066,7 @@ li {
     height: 348px;
     position: absolute;
     margin-top: 20px;
-    margin-left: 284px;
-   
+    margin-left: 284px; 
 }
 
 .fieldset {
@@ -1102,11 +1082,11 @@ li {
     height: 20px;
     margin-top: 14px;
     margin-bottom: 3px;
-    font-family: Open sans;
-    font-Weight: 400;
-    font-Style: normal;
-    font-Size: 14px;
-    Line-height: 19px;
+    font-family: open sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
     left: 40px;
     padding: 0;
 }
@@ -1119,7 +1099,6 @@ li {
     margin-top: 38px;
     left: 40px;
     border: 2px, rgba(0, 0, 0, 0.2); 
-    
 }
 
 
@@ -1131,11 +1110,11 @@ li {
     height: 20px;
     margin-top: 115px;
     margin-bottom: 3px;
-    font-family: Open sans;
-    font-Weight: 400;
-    font-Style: normal;
-    font-Size: 14px;
-    Line-height: 19px;
+    font-family: open sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
     left: 40px;
     padding: 0;
 }
@@ -1149,7 +1128,6 @@ li {
     margin-top: 138px;
     left: 40px;
     border: 2px, rgba(0, 0, 0, 0.3);  
-     
 }
 
 
@@ -1161,11 +1139,11 @@ li {
     height: 20px;
     margin-top: 210px;
     margin-bottom: 3px;
-    font-family: Open sans;
-    font-Weight: 400;
-    font-Style: normal;
-    font-Size: 14px;
-    Line-height: 19px;
+    font-family: open sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
     left: 40px;
     padding: 0;
 }
@@ -1178,7 +1156,6 @@ li {
     margin-top: 235px;
     left: 40px;
     border: 2px, rgba(0, 0, 0, 0.2); 
-   
 }
 
 
@@ -1211,8 +1188,8 @@ li {
 .peace-tree {
     width: 116px;
     height: 40px;
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
@@ -1225,8 +1202,8 @@ li {
 .peace-four {
     width: 116px;
     height: 40px;
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
@@ -1267,8 +1244,8 @@ li {
 .peace-five {
     width: 200px;
     height: 20px;
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
@@ -1281,8 +1258,8 @@ li {
 .peace-six {
     width: 183px;
     height: 20px;
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
@@ -1295,8 +1272,8 @@ li {
 .peace-seven {
     width: 183px;
     height: 20px;
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
@@ -1320,22 +1297,22 @@ li {
 
 .time {
     position: relative;
-    font-family: Open Sans;
-    font-Weight: 400;
-    font-Style: normal;
-    font-Size: 16px;
-    Line-height: 22px;
+    font-family: open Sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
     top: 20px;
     color: #a8a8a8;
 }
 
 .blogs-title {
     position: relative;
-    font-family: Montserrat;
-    font-Weight: 700;
-    font-Style: normal;
-    font-Size: 24px;
-    Line-height: 31px;
+    font-family: montserrat;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
     width: 380px;
     top: 7px; 
     cursor: pointer;
@@ -1343,11 +1320,11 @@ li {
 
 .blogs-title-one {
     position: relative;
-    font-family: Montserrat;
-    font-Weight: 700;
-    font-Style: normal;
-    font-Size: 24px;
-    Line-height: 31px;
+    font-family: montserrat;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
     width: 380px;
     top: 7px; 
     text-decoration: underline;
@@ -1355,11 +1332,11 @@ li {
 
 .blogs-title-two {
     position: relative;
-    font-family: Montserrat;
-    font-Weight: 700;
-    font-Style: normal;
-    font-Size: 24px;
-    Line-height: 31px;
+    font-family: montserrat;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
     width: 380px;
     top: 7px; 
     text-decoration: underline;
@@ -1367,11 +1344,11 @@ li {
 
 .line {
     position: relative;
-    font-family: Open sans;
-    font-Weight: 400;
-    font-Style: normal;
-    font-Size: 18px;
-    Line-height: 25px;
+    font-family: open sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
     top: 15px;
     color: black;
     width: 380px; 
@@ -1382,8 +1359,8 @@ li {
 .peace-eight {
     width: 200px;
     height: 20px;
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
@@ -1411,8 +1388,8 @@ li {
 .peace-nine {
     width: 200px;
     height: 20px;
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
@@ -1429,8 +1406,8 @@ li {
 .peace-ten {
     width: 200px;
     height: 20px;
-    font-family: Archivo;
-    font-Weight: 700;
+    font-family: archivo;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;

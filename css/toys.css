@@ -13,8 +13,8 @@
     margin-left: 110px;
     margin-top: 50px;
     text-transform: uppercase;
-    font-family: Montserrat;
-    font-Weight: 700;
+    font-family: montserrat;
+    font-weight: 700;
     font-style: normal;
     font-size: 40px;
     line-height: 49px;
@@ -28,8 +28,6 @@
     height: 25px;
     margin-top: 15px;
     margin-left: 110px;
-    
-    
 }
 
 .vector-one {
@@ -37,7 +35,6 @@
     margin-left: -38px;
     color: black;
     text-decoration: none;
-
 }
 
 .one {
@@ -55,7 +52,6 @@
     margin-left: 14px;
     color: black;
     text-decoration: none;
-
 }
 
 .toys {
@@ -63,6 +59,7 @@
     text-decoration: none;
     color:black;
 }
+
 .toys:hover {
     margin-left: 20px;
     text-decoration: none;
@@ -84,8 +81,8 @@
 
 .parameters-one {
     position: absolute;
-    font-family: Open Sans;
-    font-Weight: 700;
+    font-family: open Sans;
+    font-weight: 700;
     font-style: normal;
     font-size: 16px;
     line-height: 22px; 
@@ -113,8 +110,8 @@
 
 .parameters-two {
     position: absolute;
-    font-family: Open Sans;
-    font-Weight: 700;
+    font-family: open Sans;
+    font-weight: 700;
     font-style: normal;
     font-size: 16px;
     line-height: 22px; 
@@ -124,20 +121,17 @@
 
 .check {
     margin-top: 65px;
-    margin-left: 56px;
-    
-  
+    margin-left: 56px; 
 }
 
 .check li {
-    border: #c29974;
-    
+    border: #c29974; 
 }
 
 .parameters-tree {
     position: absolute;
-    font-family: Open Sans;
-    font-Weight: 700;
+    font-family: open Sans;
+    font-weight: 700;
     font-style: normal;
     font-size: 16px;
     line-height: 22px; 
@@ -154,8 +148,8 @@
 
 .parameters-four {
     position: absolute;
-    font-family: Open Sans;
-    font-Weight: 700;
+    font-family: open Sans;
+    font-weight: 700;
     font-style: normal;
     font-size: 16px;
     line-height: 22px; 
@@ -179,19 +173,17 @@
 
 .amount > li:hover {
     background: #F3D0DB; 
-    
 }
 
 .amount > li:active {
     background: #EDDEEB;
-    color: #A08D95; 
-    
+    color: #A08D95;  
 }
 
 
 
 .button-apply {
-    font-family: Open Sans;
+    font-family: open Sans;
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
@@ -213,6 +205,7 @@
 .button-apply:hover {
     background: #C29974;
 }
+
 .button-apply:active {
     background: #CFAF91;
 }
@@ -227,10 +220,10 @@
 
 .button-learn_one {
     background: url('../images/products/product\ 1.jpg');
-    Opacity: 0%;
+    opacity: 0%;
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -250,7 +243,7 @@
 .button-learn_one:hover {
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -264,7 +257,7 @@
     margin-top: 79px;
     text-align: center;
     background: #E5EAF8;
-    Opacity: 90%;
+    opacity: 90%;
     color:black;
     border: none;
     margin: 87px;
@@ -273,7 +266,7 @@
 .button-learn_one:active {
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -287,7 +280,7 @@
     margin-top: 79px;
     text-align: center;
     background: #E5EAF8;
-    Opacity: 67%;
+    opacity: 67%;
     color:black;
     border: none;
     margin: 87px;
@@ -300,7 +293,7 @@
     margin-left: 66px;
     text-align: center;
     border: none;
-    font-family: Open Sans;
+    font-family: open Sans;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
@@ -315,10 +308,10 @@
 
 .button-learn_two {
     background: url('../images/products/product\ 2.jpg');
-    Opacity: 0%;
+    opacity: 0%;
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -326,8 +319,8 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 79px;
     text-align: center;
@@ -338,7 +331,7 @@
 .button-learn_two:hover {
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -346,13 +339,13 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 79px;
     text-align: center;
     background: #E5EAF8;
-    Opacity: 90%;
+    opacity: 90%;
     color:black;
     border: none;
     margin: 87px;
@@ -361,7 +354,7 @@
 .button-learn_two:active {
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -369,8 +362,8 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 79px;
     text-align: center;
@@ -387,7 +380,7 @@
     margin-left: 120px;
     text-align: center;
     border: none;
-    font-family: Open Sans;
+    font-family: open Sans;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
@@ -405,7 +398,7 @@
     Opacity: 0%;
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -413,20 +406,18 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 79px;
     text-align: center;
     border: none;
-    margin: 87px;
-   
 }
 
 .button-learn_tree:hover {
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -434,13 +425,13 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 79px;
     text-align: center;
     background: #E5EAF8;
-    Opacity: 90%;
+    opacity: 90%;
     color:black;
     border: none;
     margin: 87px;
@@ -449,7 +440,7 @@
 .button-learn_tree:active {
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -457,8 +448,8 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 79px;
     text-align: center;
@@ -475,7 +466,7 @@
     margin-left: 120px;
     text-align: center;
     border: none;
-    font-family: Open Sans;
+    font-family: open Sans;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
@@ -496,10 +487,10 @@
 
 .button-learn_four {
     background: url('../images/products/product\ 4.jpg');
-    Opacity: 0%;
+    opacity: 0%;
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -507,20 +498,19 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 79px;
     text-align: center;
     border: none;
-    margin: 87px;
-       
+    margin: 87px;  
 }
     
 .button-learn_four:hover {
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -528,13 +518,13 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 79px;
     text-align: center;
     background: #E5EAF8;
-    Opacity: 90%;
+    opacity: 90%;
     color:black;
     border: none;
     margin: 87px;
@@ -543,7 +533,7 @@
 .button-learn_four:active {
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -551,13 +541,13 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 79px;
     text-align: center;
     background: #E5EAF8;
-    Opacity: 67%;
+    opacity: 67%;
     color:black;
     border: none;
     margin: 87px;
@@ -569,7 +559,7 @@
     margin-left: 65px;
     text-align: center;
     border: none;
-    font-family: Open Sans;
+    font-family: open Sans;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
@@ -587,7 +577,7 @@
     Opacity: 0%;
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -595,20 +585,19 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 79px;
     text-align: center;
     border: none;
     margin: 87px;
-       
 }
     
 .button-learn_five:hover {
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -616,13 +605,13 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 79px;
     text-align: center;
     background: #E5EAF8;
-    Opacity: 90%;
+    opacity: 90%;
     color:black;
     border: none;
     margin: 87px;
@@ -631,7 +620,7 @@
 .button-learn_five:active {
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -639,13 +628,13 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 79px;
     text-align: center;
     background: #E5EAF8;
-    Opacity: 67%;
+    opacity: 67%;
     color:black;
     border: none;
     margin: 87px;
@@ -657,7 +646,7 @@
     margin-left: 65px;
     text-align: center;
     border: none;
-    font-family: Open Sans;
+    font-family: open Sans;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
@@ -673,10 +662,10 @@
 
 .button-learn_six {
     background: url('../images/products/product\ 5.jpg');
-    Opacity: 0%;
+    opacity: 0%;
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -684,20 +673,19 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 79px;
     text-align: center;
     border: none;
-    margin: 87px;
-       
+    margin: 87px; 
 }
     
 .button-learn_six:hover {
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -705,13 +693,13 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 79px;
     text-align: center;
     background: #E5EAF8;
-    Opacity: 90%;
+    opacity: 90%;
     color:black;
     border: none;
     margin: 87px;
@@ -720,7 +708,7 @@
 .button-learn_six:active {
     position: absolute;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 26px;
@@ -728,13 +716,13 @@
     position: absolute;
     text-decoration: none;
     text-transform: uppercase;
-    Width: 207px;
-    Height: 207px;
+    width: 207px;
+    height: 207px;
     padding: 82px 11px;
     margin-top: 79px;
     text-align: center;
     background: #E5EAF8;
-    Opacity: 67%;
+    opacity: 67%;
     color:black;
     border: none;
     margin: 87px;
@@ -746,7 +734,7 @@
     margin-left: 93px;
     text-align: center;
     border: none;
-    font-family: Open Sans;
+    font-family: open Sans;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
@@ -764,7 +752,7 @@
     margin-top: 78px;
     margin-left: 504px; 
     margin-bottom: 63px;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-weight: 700;
     font-style: normal;
     font-size: 16px;

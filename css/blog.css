@@ -11,7 +11,7 @@
     margin-left: 110px;
     margin-top: 50px;
     text-transform: uppercase;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-Weight: 700;
     font-style: normal;
     font-size: 40px;
@@ -25,8 +25,6 @@
     height: 25px;
     margin-top: 15px;
     margin-left: 110px;
-    
-    
 }
 
 .vector-one {
@@ -34,7 +32,6 @@
     margin-left: -38px;
     color: black;
     text-decoration: none;
-
 }
 
 .one {
@@ -69,22 +66,22 @@
 
 .time {
     position: relative;
-    font-family: Open Sans;
-    font-Weight: 400;
-    font-Style: normal;
-    font-Size: 16px;
-    Line-height: 22px;
+    font-family: open Sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
     top: 20px;
     color: #a8a8a8;
 }
 
 .blogs-title {
     position: relative;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-Weight: 700;
     font-Style: normal;
     font-Size: 24px;
-    Line-height: 31px;
+    line-height: 31px;
     width: 380px;
     top: 7px; 
     cursor: pointer;
@@ -92,11 +89,11 @@
 
 .blogs-title:hover {
     position: relative;
-    font-family: Montserrat;
-    font-Weight: 700;
-    font-Style: normal;
-    font-Size: 24px;
-    Line-height: 31px;
+    font-family: montserrat;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
     width: 380px;
     top: 7px; 
     text-decoration: underline;
@@ -104,11 +101,11 @@
 
 .blogs-title:active {
     position: relative;
-    font-family: Montserrat;
-    font-Weight: 700;
-    font-Style: normal;
-    font-Size: 24px;
-    Line-height: 31px;
+    font-family: montserrat;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
     width: 380px;
     top: 7px; 
     text-decoration: underline;
@@ -116,11 +113,11 @@
 
 .line {
     position: relative;
-    font-family: Open sans;
-    font-Weight: 400;
-    font-Style: normal;
-    font-Size: 18px;
-    Line-height: 25px;
+    font-family: open sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
     top: 15px;
     color: black;
     width: 380px; 
@@ -133,7 +130,6 @@
     margin-top: 50px;
     margin-left: 110px;
     padding: 0; 
-    
 }
     
 .blogs-two li {
@@ -145,18 +141,17 @@
     margin-top: 78px;
     margin-left: 504px; 
     margin-bottom: 63px;
-    font-family: Montserrat;
-    font-Weight: 700;
-    font-Style: normal;
-    font-Size: 16px;
-    Line-height: 20px;
+    font-family: montserrat;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .numbering-one {
     color: black;
     text-decoration: none;
     margin-left: 67px;
-    
 }
 
 .numbering-one:hover {
