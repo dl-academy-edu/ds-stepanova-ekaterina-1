@@ -91,16 +91,16 @@
     height: 50px;
     margin-top: 45px;
     left: 40px;
-    border: 2px, rgba(0, 0, 0, 0.2);   
+    border: 2px, #ccc;   
 }
 
 .name:hover {
-    border: 2px, rgba(0, 0, 0, 0.3); 
-    outline-color: rgba(0, 0, 0, 0.3); 
+    border: 2px, #ccc; 
+    outline-color: #ccc; 
 }
 
 .name:active {
-    border: 1px, rgba(0, 0, 0, 0.2);   
+    border: 1px, #ccc;   
 }
 
 .field-phone {
@@ -123,16 +123,16 @@
     width: 290px;
     height: 50px;
     left: 40px;
-    border: 2px, rgba(0, 0, 0, 0.2);
+    border: 2px, #ccc;
 }
 
 .phone:hover {
-    border: 2px, rgba(0, 0, 0, 0.3);
-    outline-color: rgba(0, 0, 0, 0.3);
+    border: 2px, #ccc;
+    outline-color: #ccc;
 }
 
 .phone:active {
-    border: 2px, rgba(0, 0, 0, 0.2);
+    border: 2px, #ccc;
 }
 
 .field-email {
@@ -155,16 +155,16 @@
     height: 50px;
     margin-top: 145px;
     margin-left: 298px; 
-    border: 2px, rgba(0, 0, 0, 0.2);
+    border: 2px, #ccc;
 }
 
 .email-one:hover {
-    border: 2px, rgba(0, 0, 0, 0.3);
-    outline-color: rgba(0, 0, 0, 0.3);
+    border: 2px, #ccc;
+    outline-color: #ccc;
 }
 
 .email-one:active {
-    border: 2px, rgba(0, 0, 0, 0.2);
+    border: 2px, #ccc;
 }
 
 .field-message {
@@ -187,16 +187,16 @@
     height: 150px;
     margin-top: 241px;
     left: 40px;
-    border: 2px, rgba(0, 0, 0, 0.2);
+    border: 2px, #ccc;
 }
 
 .message:hover {
-    border: 2px, rgba(0, 0, 0, 0.3);
-    outline-color: rgba(0, 0, 0, 0.3); 
+    border: 2px, #ccc;
+    outline-color: #ccc; 
 }
 
 .message:active {
-    border: 2px, rgba(0, 0, 0, 0.2);
+    border: 2px, #ccc;
 }
 
 
@@ -256,7 +256,6 @@
     line-height: 19px;
 }
     
-
 
 .submit-one {
     position: absolute;

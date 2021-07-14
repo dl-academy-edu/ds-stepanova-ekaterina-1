@@ -101,8 +101,7 @@
 
 .about-container_services  {
     display: flex;
-    position: relative;
-    
+    position: relative; 
 }
 
 
@@ -315,6 +314,7 @@
     font-size: 16px;
     line-height: 22px;
 }
+
 .map-wrapper1 .button-fourthly:hover {
     background: #C29974;
 }

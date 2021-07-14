@@ -646,7 +646,7 @@
 .parameters-five {
     position: absolute;
     font-family: open Sans;
-    font-Weight: 700;
+    font-weight: 700;
     font-style: normal;
     font-size: 16px;
     line-height: 22px; 
@@ -760,7 +760,7 @@
 
 .button-more_two {
     background: url('../images/products/product\ 1.jpg');
-    Opacity: 90%;
+    opacity: 90%;
     position: absolute;
     text-align: center;
     font-family: montserrat;
@@ -804,7 +804,7 @@
 
 .article-tree {
     font-family: archivo;
-    font-Weight: 700;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
     line-height: 20px;
@@ -816,7 +816,7 @@
 
 .button-more_tree {
     background: url('../images/products/product\ 1.jpg');
-    Opacity: 67%;
+    opacity: 67%;
     position: absolute;
     text-align: center;
     font-family: montserrat;
@@ -887,7 +887,7 @@ li {
     position: absolute;
     color: #FFFFFF; 
     font-Size: 26px;
-    Line-height: 32px;
+    line-height: 32px;
     text-align: center;
     font-family: montserrat;
     font-weight: 700;
@@ -902,7 +902,7 @@ li {
     text-decoration:inherit;
     color: #FFFFFF; 
     font-Size: 26px;
-    Line-height: 32px;
+    line-height: 32px;
     text-align: center;
     font-family: montserrat;
     font-weight: 700;
