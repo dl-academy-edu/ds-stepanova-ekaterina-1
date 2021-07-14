@@ -1,0 +1,329 @@
+.service {
+    display: block;
+    position: relative;
+    align-items: center;
+}
+
+.service-title_five {
+    width: 478px;
+    height: 49px;
+    margin: 0;
+    margin-left: 110px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.vector {
+    display: flex;
+    position: relative;
+    width: 42px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 110px;
+}
+
+.vector-one {
+    position: relative;
+    margin-left: -38px;
+    color: black;
+    text-decoration: none;
+}
+
+.one {
+    background: url('../images/vector.svg') no-repeat center;
+    width: 8px;
+    height: 12px;
+    margin: 0;
+    margin-top: -4px;
+    margin-left: 20px;
+    border: none;
+}
+
+.contact-us {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #9c9292;
+}
+
+/* MODUL POPUP */
+
+.modul-popup {
+    background: url('../images/Rectangle\ \(4\).png') no-repeat center;
+    display: block;
+    width: 680px;
+    height: 542px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+.fieldset {
+    position: absolute;
+    width: 680px;
+    height: 542px;
+    border: none; 
+}
+
+.field-name {
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    font-family: open sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+    left: 40px;
+    padding: 0;
+}
+
+
+.name {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    margin-top: 45px;
+    left: 40px;
+    border: 2px, #ccc;   
+}
+
+.name:hover {
+    border: 2px, #ccc; 
+    outline-color: #ccc; 
+}
+
+.name:active {
+    border: 1px, #ccc;   
+}
+
+.field-phone {
+    position: absolute;
+    width: 42px;
+    height: 20px;
+    left: 40px;
+    margin-top: 120px;
+    margin-bottom: 3px;
+    font-family: open sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.phone {
+    position: absolute;
+    margin-top: 145px;
+    width: 290px;
+    height: 50px;
+    left: 40px;
+    border: 2px, #ccc;
+}
+
+.phone:hover {
+    border: 2px, #ccc;
+    outline-color: #ccc;
+}
+
+.phone:active {
+    border: 2px, #ccc;
+}
+
+.field-email {
+    position: absolute;
+    width: 36px;
+    height: 20px;
+    margin-top: 120px;
+    margin-bottom: 3px;
+    margin-left: 298px;
+    font-family: open sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.email-one {
+    position: absolute;
+    width: 290px;
+    height: 50px;
+    margin-top: 145px;
+    margin-left: 298px; 
+    border: 2px, #ccc;
+}
+
+.email-one:hover {
+    border: 2px, #ccc;
+    outline-color: #ccc;
+}
+
+.email-one:active {
+    border: 2px, #ccc;
+}
+
+.field-message {
+    position: absolute;
+    width: 36px;
+    height: 20px;
+    margin-top: 217px;
+    margin-bottom: 3px;
+    left: 40px;
+    font-family: open sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.message {
+    position: absolute;
+    width: 600px;
+    height: 150px;
+    margin-top: 241px;
+    left: 40px;
+    border: 2px, #ccc;
+}
+
+.message:hover {
+    border: 2px, #ccc;
+    outline-color: #ccc; 
+}
+
+.message:active {
+    border: 2px, #ccc;
+}
+
+
+.button-checkbox {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: -12px;
+    width: 19px;
+    height: 19px;
+    cursor: default;
+}
+
+.button-checkbox::before {
+    display: inline-block;
+    position: absolute;
+    font: 20px/30px arial;
+    margin-right: 15px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 14px;
+    height: 15px;
+    background: #E5EAF8;
+    border: 2px solid #C29974;
+    border-image: initial;
+    vertical-align: middle;
+}
+
+
+.button-checkbox:not(:disabled):active+label::before {
+    content: url('../images/Vector\ 1\ \(Stroke\).svg');
+    display: inline-block;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: -5px;
+    width: 14px;
+    height: 15px;
+}
+
+.button-checkbox:checked::after {
+    border-color: 2px solid #C29974;
+    background-color: #E5EAF8;
+    content: url('../images/Vector\ 1\ \(Stroke\).svg');
+} 
+
+.clicking {
+    position: absolute;
+    margin-top: 415px;
+    width: 508px;
+    height: 20px;
+    margin-left: 16px;
+    font-family: open sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+    
+
+.submit-one {
+    position: absolute;
+    font-family: open Sans;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    position: absolute;
+    text-transform: uppercase;
+    left: 40px;
+    top: 470px;
+    width: 106px;
+    height: 40px;
+    text-align: center;
+    background: black;
+    color:blanchedalmond;
+    border: none;
+}
+
+.submit-one:hover {
+    background: #C29974;
+}
+
+.submit-one:active {
+    background: #CFAF91;
+}
+
+
+.article {
+    display: block;
+    position: relative;
+    margin-left: 910px;
+    margin-top: 60px;
+    margin-right: 110px;
+    padding-bottom: 384px;
+}
+
+.support {
+    width: 380px;
+    height: 44px;
+    font-family: open sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.send {
+    width: 380px;
+    height: 66px;
+    font-family: open sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+.expert {
+    width: 380px;
+    height: 66px;
+    font-family: montserrat;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 34px;
+    margin-top: 20px;
+    color: #C29974;
+    text-transform: uppercase;
+}
